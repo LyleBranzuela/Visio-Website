@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<head>
+  <title>Support</title>
+  <link rel="shortcut icon" href="../Images/Favicon Visio.ico" type="image/x-icon">
+  <link rel="icon" href="../Images/Favicon Visio.ico" type="image/x-icon">
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="../CSS Styles/stylea.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!---Navigation Bar--->
+<div class="navbar-wrapper">
+ <div class="container">
+  <nav class="navbar navbar-default navbar-fixed-top">
+   <div class="container-fluid">
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html"><img id="logo" src="../Images/Logo.png" alt="Visio Logo Homepage"/></a> 
+     </div>
+     <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+       <li><a href="aboutus.html">About Us</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products<span class="caret"></span></a>
+           <ul class="dropdown-menu">
+            <li><a href="Products/zeniac.html">Zeniac</a></li>
+            <li><a href="Products/noctem.html">Noctem</a></li>
+            <li><a href="Products/z2cloud.html">Z2 Cloud</a></li> 
+       	   </ul>
+        	<li><a href="tech.html">Technology</a></li>
+        	<li><a href="support.html">Support</a></li>
+            </li>
+      	   </ul>
+      </div>
+   </div>
+  </nav>
+ </div>
+</div>
+<!---End of Navigation Bar Code--->
+
+<!---Support--->
+	<div class="content-wrapper wrapper-margin"> 
+     <div class="container">
+      <div class="row">
+         <div class="col-lg-5 support-desc">
+           <h1 style="color: #004C70; text-align:center; font-size: 32px">Benefits of Registering</h1>	
+            <p style="font-size: 20px; text-align:center"><strong>Register the product you own and get the Benefits of Registering your Product:</strong></p>
+              <ul style="font-size: 18px">
+               <li>Keeps an online record of your product purchases and serial numbers.</li>
+               <li>Visio sends product updates or services through emails.</li>
+               <li>Get a higher priority on support tickets.</li>
+               <li>Track the warranty length and find out what the warranty covers.</li>
+              </ul>
+         </div>
+<!---Support Code End--->
+     <!--- Form --->
+      <div class="col-lg-5 support-form">
+       <div class="well">
+        <h2 style="text-align: center; color: #006495">Send a Support Ticket</h2>
+        <hr />
+         <form>
+        	<div class="form-group">
+            	<h4 class="form-searchstyle2">Your Name:</h4>
+                <input type="text" class="form-control" placeholder="Name" />
+            </div>
+        	<div class="form-group">
+            	<h4 class="form-searchstyle2">Your Email Address:</h4>
+                <input type="email" class="form-control" placeholder="Email" />
+            </div>
+            <div class="form-group">
+        	 <h4 class="form-searchstyle2">Glasses Name</h4>
+              <select class="form-control">
+                <option></option>
+                <option class="zeniac-font-color">Zeniac</option>
+                <option class="noctem-font-color">Noctem</option>
+                <option class="z2cloud-font-color">Z2 Cloud</option>
+              </select>      
+            </div>
+        	<div class="form-group">
+            	<h4 class="form-searchstyle2">Product's Serial Number:</h4>
+                <input type="number" class="form-control" placeholder="Serial No." />
+            </div>
+        	<div class="form-group">
+            	<h4 class="form-searchstyle2">Additional Comments/Feedback (Optional):</h4>
+                <textarea class="form-control" placeholder="Feedback/Comments"></textarea>
+            </div>   
+            <hr />
+            <input type="submit" class="btn btn-info btn-block" alt="Submit Button" id="orderform-confirm"/>
+         </form>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+     <!---Form Code End--->
+<!---Footer--->
+    <div class="container index-footer-columnpadding">
+        <footer class="footer-style">
+            <p class="pull-right"><a href="#">Back to Top</a></p>
+            <p>&copy; 2016 Visio, Inc. &middot; <a href="Copyright HTML/privacy.html">Privacy</a> &middot; <a href="Copyright HTML/termsc.html">Terms and Conditions</a></p>
+        </footer>
+    </div>
+<!---End of Footer Code-->
+<script>
+	$("#orderform-confirm").click(function(){
+		if(confirm("Submit Support Ticket?")) {
+			alert("Support Ticket Submitted! Please wait for our response.");	
+		} else {
+			alert("Support Ticket Submission Cancelled.");	
+		}
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,420 @@
+	@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Nirmala UI";
+	background: url(../Backgrounds/wallpaper_800x600_773.jpg);
+    background-repeat: repeat;
+}
+
+.jumbotron { 
+	background-color:#006495;
+	color: #F4D00C;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	padding: 6%;
+}
+
+.thumbnail img {
+	width: 100%;
+	position: relative;		
+}
+
+.thumbnail {
+	background-color: #333;
+}
+
+label {
+	font-weight: normal;	
+}
+
+#logo {
+	height: 150%;
+    margin-bottom: 10px;
+    margin-top: -4px;
+}
+
+.wrapper-margin {
+	margin-top: 5%;	
+}
+
+.footer-style {
+	margin-top: 2%;
+	padding: 1%; 
+	background: #333;
+	color: #F4D00C;
+	margin-bottom: 0;
+		
+}
+
+.info-toggle {
+	font-size: 125%;
+	text-align: center;
+}
+
+.click-me-style {
+	font-size: 120%;
+	text-align: left;	
+}
+
+
+
+/* Font Styles */
+.zeniac-font-color {
+	color:#E0A025;	
+}
+
+.noctem-font-color {
+	color: #F2635F;
+}
+
+.z2cloud-font-color {
+	color: #0093D1;
+}
+
+.currency-font-color {
+	color: #F4D00C;
+}
+
+.header-font-color {
+	color: #004C70;	
+}
+	/* Privacy Font Styles */
+	.privacy-font-style p {
+		font-size: 18px; 
+		text-align: left;
+	}
+	
+	.privacy-font-style h2 {
+		color: #004C70;
+		font-size: 20px; 
+		text-align: left;	
+		font-weight: bold;
+	}
+	/* End of Privacy Font Styles */
+
+	/* About us Font Styles */
+	.aboutus-content1-font-style {
+	font-size: 20px; 
+	text-align: left;
+	}
+	.aboutus-header1-font-style { 
+	text-align: center; 
+	font-size: 60px;
+	}
+	.aboutus-header2-font-style { 
+	text-align: center; 
+	font-size: 40px;
+	}
+	.aboutus-content2-font-style {
+	font-size: 20px; 
+	text-align: left;
+	}
+	/* End of About us Font Styles */
+/* End of Font Styles */
+
+/* Navbar Style */
+.navbar {
+    margin-bottom: 0;
+    background-color: #333;
+    border: 0;
+    font-size: 22px;
+    letter-spacing: 4px;
+    opacity: 0.9;
+	padding: inherit;
+}
+
+.navbar li a, .navbar .navbar-brand { 
+    color: #F4D00C !important;
+}
+
+.navbar-nav li a:hover {
+    color: #fff !important; 
+}
+
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.open .dropdown-toggle {
+    color: #0093D1 ;
+    background-color: #555 !important;
+}
+
+.dropdown-menu li a {
+    color: #F2635F !important;
+	font-size: 18px;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #F4D00C !important; 
+}
+/* Navbar Style End */
+
+/* Carousel Style */
+.carousel {
+  	height: 500px;
+	margin-bottom: 60px;
+	background-repeat: repeat;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #F4D00C;
+}
+
+.carousel-indicators li {
+	color: #F4D00C;
+	border-color: #F4D00C;
+}
+
+.carousel-indicators li.active {
+    background-color: #006495;
+}
+
+.carousel .item {
+	height: 500px;	
+	background: url(../Backgrounds/Aero%20Glass.jpg);
+
+}
+
+.carousel-inner img {
+	margin: auto;
+}
+
+.carousel-inner > .item > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+    height: 500px;
+}
+
+.slide-content {
+	color: #FFF;
+}
+
+.slide-content p {
+	font-size: 30px;
+	margin-bottom: 0;
+}
+
+.slide-content2 {
+	color: #FFF;
+	text-align: center;
+}
+
+.slide-content2 p {
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+.slide-wrapper {
+	margin-top: 10%;
+}
+
+.slide-thumb {
+	max-height: 300px;
+	width: 100%;
+	background-color: #F4D00C;
+}
+
+.slide-image .slide-thumb img {
+	max-height: 290px;	
+	width: 100%;
+}
+
+	/* Carousel Indicator Style */
+	#carouselcontainer1 {
+		background-color: #E0A025; 
+		border-color: #F4D00C;
+	}
+	
+	#carouselcontainer2 {
+		background-color: #F2635F; 
+		border-color: #F4D00C;
+	}
+	
+	#carouselcontainer3 {
+		background-color: #0093D1; 
+		border-color: #F4D00C;
+	}
+	/* Carousel Indicator Style End */
+/* End of Carousel Style */
+
+/* Form Style */
+#formstyle {
+	margin-top: 4%;
+}
+
+.form-searchstyle {
+	text-align: center;
+	color: #006495
+}
+
+.form-searchstyle2 {
+	color: #006495
+}
+/* Form Style End */
+
+/* Shopping List Style */
+.shop-listing {
+	position: relative; /* Note to self for Journal: To make the container position relatively */	
+	width: 250px;
+	height: 250px;
+}
+
+.shop-listing h4 {
+	position: absolute; /* To position the text at the absolutely at the top of the image */
+	top: 0;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;	
+}
+
+.shop-listing .list-text { /* general rule for price and glasstype */
+	position: absolute; 
+    width: 100%;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.shop-listing .price {
+	right: 0;
+	bottom: 0;
+	color: #F4D00C;
+	margin-right: 20px;
+	text-align: right;
+}
+
+.shop-listing .glasstype {
+	position: absolute; 
+	left: 0;
+	bottom: 0;
+	margin-left: 20px;
+	text-align: left;
+}
+
+.shop-listing img { /* Makes the images fit the thumbnail */
+	height: 240px; 
+	width: 240px;	
+}
+/* Shopping List Style End */
+
+@media (max-width: 1199px) {
+    .tech-container1 {
+      margin-top: 10%;
+	  margin-bottom: 0;
+	  margin-left: 0;
+	  margin-right: 0;
+	  background-color: #000;
+	  padding: 2%;
+	  color: #FFF;
+    }
+    .tech-container2 {
+      margin: 0;
+	  background-color: #E0A025;
+	  padding: 2%;
+    }
+    .tech-container3 {
+      margin: 0;
+	  background-color: #F2635F;
+	  padding: 2%;
+    }
+    .tech-container4 {
+      margin: 0;
+	  background-color: #E0A025;
+	  padding: 2%;
+    }
+    .tech-container5 {
+      margin: 0;
+	  background-color: #0093D1;
+	  padding: 2%;
+    }
+	.footer-columnpadding {
+		padding: 0;
+		bottom: 0;
+		width: 100%;
+}
+	.index-footer-columnpadding {
+		padding: 0;
+		bottom: 0;
+		width: 100%;
+}
+}
+
+/* Screen = 1200px Size or more */
+@media (min-width: 1200px) {
+	.tech-container1 {
+		padding: 2%; 
+		background-color: #000; 
+		margin-top: 10%;
+		color: #FFF;
+	}
+	.tech-container2 {
+		padding: 2%; 
+		background-color: #E0A025; 
+		margin-top: 2%;
+	}
+	.tech-container3 {
+		padding: 2%; 
+		background-color: #F2635F; 
+		margin-top: 7%;
+	}
+	.tech-container4 {
+		padding: 2%; 
+		background-color: #E0A025; 
+		margin-top: 10%;
+	}
+	.tech-container5 {
+		padding: 2%; 
+		background-color: #0093D1; 
+		margin-top: 14%;
+	}
+
+	.support-desc {
+		float: right;
+	}
+	
+	.support-form {
+		float: left;	
+	}
+	
+	.footer-columnpadding {
+		padding: 0;
+		bottom: 0;
+		width: 100%;
+		position: absolute;
+}
+	.index-footer-columnpadding {
+		padding: 0;
+		bottom: 0;
+		width: 100%;
+}
+}
+
+/* Start of Tech Container Text Style */
+.tech-containerdesc {
+	font-size: 20px; 
+	text-align: center;
+}
+
+.tech-containerheader {
+	color: #004C70; 
+	text-align: center; 
+	font-size: 32px;
+}
+/* Tech Container Text Style End */
+
+/* Start of Product Page Styles */
+.product-color-style {
+	width: 300px;
+	height: 300px;	
+}
+/* End of Product Page Styles
